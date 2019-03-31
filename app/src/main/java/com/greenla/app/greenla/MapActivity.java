@@ -35,7 +35,7 @@ public class MapActivity extends AppCompatActivity {
 
         mMapView = findViewById(R.id.mapView);
         setupMap();
-        setupLocationDisplay();
+        //setupLocationDisplay();
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
