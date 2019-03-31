@@ -28,15 +28,16 @@
         tools:layout_editor_absoluteX="135dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/members"
         android:layout_width="129dp"
         android:layout_height="44dp"
+        android:editable="true"
         android:text="Members"
         android:textAllCaps="false"
-        android:textSize="30sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="183dp" />
+        tools:layout_editor_absoluteY="144dp" />
 
     <Button
         android:id="@+id/button2"
