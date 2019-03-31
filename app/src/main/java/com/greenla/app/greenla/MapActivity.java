@@ -13,6 +13,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.esri.arcgisruntime.mapping.ArcGISMap;
@@ -25,7 +26,7 @@ import com.esri.arcgisruntime.portal.PortalItem;
 public class MapActivity extends AppCompatActivity {
 
     private MapView mMapView;
-    private Button profile;
+    private ImageButton profile;
     private LocationDisplay mLocationDisplay;
 
     @Override
@@ -39,7 +40,7 @@ public class MapActivity extends AppCompatActivity {
         setupMap();
         //setupLocationDisplay();
 
-        profile = (Button)findViewById(R.id.profile);
+        profile = (ImageButton)findViewById(R.id.profile);
         profile.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

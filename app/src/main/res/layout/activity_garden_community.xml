@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/community"
     tools:context=".GardenCommunity">
 
     <ImageButton
@@ -16,22 +17,23 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:layout_width="146dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:background="@color/colorPrimaryDark"
-        android:text="JOIN"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="640dp" />
+        tools:layout_editor_absoluteY="291dp" />
 
     <Button
         android:id="@+id/members"
-        android:layout_width="wrap_content"
+        android:layout_width="234dp"
         android:layout_height="wrap_content"
-        android:text="VIEW MEMBERS"
-        tools:layout_editor_absoluteX="141dp"
-        tools:layout_editor_absoluteY="569dp" />
+        android:text=" "
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="243dp" />
 
 </android.support.constraint.ConstraintLayout>
