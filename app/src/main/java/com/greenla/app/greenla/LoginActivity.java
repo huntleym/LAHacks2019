@@ -23,10 +23,14 @@ public class LoginActivity extends AppCompatActivity {
         password = (EditText)findViewById(R.id.etPassword);
         login = (Button)findViewById(R.id.btnLogin);
         incorrect = (EditText)findViewById(R.id.editText4);
+        
+
+        boolean upIncorrect = (boolean)getIntent().getSerializableExtra("INCORRECT_LOGIN");
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                validate(name.toString(), password.toString());
+                validate(name.getText().toString(), password.getText().toString());
             }
         });
     }
@@ -34,12 +38,14 @@ public class LoginActivity extends AppCompatActivity {
     private void validate(String username, String pass){
 
         if((username.equals("Admin")) && (pass.equals("Admin"))){
-            Intent intent = new Intent(LoginActivity.this, MainMapActivity.class);
+            Intent intent = new Intent(LoginActivity.this, MapActivity.class);
             startActivity(intent);
         }
         else {
             incorrect.setVisibility(View.VISIBLE);
             Intent intent = new Intent(LoginActivity.this, LoginActivity.class);
+            boolean upIncorrect = true;
+            intent.putExtra("INCORRECT_LOGIN", upIncorrect);
             startActivity(intent);
         }
 
