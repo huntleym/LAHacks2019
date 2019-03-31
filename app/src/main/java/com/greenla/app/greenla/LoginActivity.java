@@ -23,7 +23,6 @@ public class LoginActivity extends AppCompatActivity {
         password = (EditText)findViewById(R.id.etPassword);
         login = (Button)findViewById(R.id.btnLogin);
         incorrect = (EditText)findViewById(R.id.editText4);
-        
 
         boolean upIncorrect = (boolean)getIntent().getSerializableExtra("INCORRECT_LOGIN");
 
