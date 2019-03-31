@@ -9,6 +9,8 @@
         android:glEsVersion="0x00020000"
         android:required="true" />
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -43,12 +45,7 @@
 
         <activity
             android:name=".MainMapActivity"
-            android:label="@string/title_activity_main_map">
-
-        </activity>
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:label="@string/title_activity_main_map"></activity>
         <activity
             android:name=".MapActivity"
             android:label="@string/title_activity_map"
@@ -58,8 +55,11 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

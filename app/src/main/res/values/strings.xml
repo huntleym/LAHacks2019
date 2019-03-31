@@ -14,5 +14,10 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-    <string name="title_activity_map">MapActivity</string>
+    <string name="title_activity_map">Find nearby gardens:</string>
+    <string name="location_permission_denied">User denied permission for device location.</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="search_nearby_gardens">Search nearby gardens</string>
+    <string name="search_local_produce">Search local produce</string>
+    <string name="for_businesses">For businesses</string>
 </resources>
