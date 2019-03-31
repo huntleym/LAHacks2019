@@ -4,13 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileActivity">
+    tools:context=".MembersActivity">
 
     <Button
-        android:id="@+id/profBack"
+        android:id="@+id/memberBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BACK"
         tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="7dp" />
+        tools:layout_editor_absoluteY="6dp" />
 </android.support.constraint.ConstraintLayout>

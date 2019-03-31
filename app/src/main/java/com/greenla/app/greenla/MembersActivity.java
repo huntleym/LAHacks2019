@@ -6,21 +6,24 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class ProfileActivity extends AppCompatActivity {
+public class MembersActivity extends AppCompatActivity {
 
     private Button back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile);
-        back = (Button)findViewById(R.id.profBack);
+        setContentView(R.layout.activity_members);
+
+        back = (Button)findViewById(R.id.memberBack);
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(ProfileActivity.this, MapActivity.class);
+                Intent intent = new Intent(MembersActivity.this, GardenCommunity.class);
                 startActivity(intent);
             }
         });
+
+
     }
 }
