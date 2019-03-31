@@ -1,28 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MapActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appBarLayout"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay"/>
+        android:theme="@style/AppTheme.AppBarOverlay" />
 
-    <include layout="@layout/content_map" />
+    <include
+        android:id="@+id/include2"
+        layout="@layout/content_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <com.esri.arcgisruntime.mapping.view.MapView
         android:id="@+id/mapView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"></com.esri.arcgisruntime.mapping.view.MapView>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></com.esri.arcgisruntime.mapping.view.MapView>
 
     <ImageButton
         android:id="@+id/profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/usericon" />
+        app:srcCompat="@drawable/usericon"
+        tools:layout_editor_absoluteX="317dp"
+        tools:layout_editor_absoluteY="0dp" />
 
-</android.support.design.widget.CoordinatorLayout>
+</android.support.constraint.ConstraintLayout>
