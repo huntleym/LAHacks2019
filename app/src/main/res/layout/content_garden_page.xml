@@ -13,17 +13,22 @@
         android:id="@+id/editText3"
         android:layout_width="113dp"
         android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="active"
         android:textColor="@color/colorPrimary"
         android:visibility="invisible"
-        tools:layout_editor_absoluteX="211dp"
-        tools:layout_editor_absoluteY="479dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/GardenName"
-        android:layout_width="wrap_content"
+        android:layout_width="372dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="132dp"
@@ -33,31 +38,9 @@
         android:text="Garden 1"
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="284dp"
-        android:layout_height="339dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/GardenName"
-        app:srcCompat="@drawable/garden" />
-
-    <EditText
-        android:id="@+id/editText"
-        style="@style/Widget.AppCompat.EditText"
-        android:layout_width="90dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Status:"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="125dp" />
 
     <EditText
         android:id="@+id/editText2"
@@ -67,15 +50,9 @@
         android:inputType="textPostalAddress"
         android:text="111 Garden Street, Los Angeles"
         android:textSize="12sp"
-        tools:layout_editor_absoluteX="103dp"
-        tools:layout_editor_absoluteY="72dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="350dp"
-        android:layout_height="43dp"
-        android:text="Community Board"
         android:visibility="invisible"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="544dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="178dp" />
+
 </android.support.constraint.ConstraintLayout>

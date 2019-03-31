@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/gardenmembers"
     android:visibility="visible"
-    tools:background="@drawable/gardenmembers"
     tools:context=".MembersActivity">
 
     <ImageButton
