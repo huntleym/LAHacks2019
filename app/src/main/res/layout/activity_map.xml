@@ -13,6 +13,8 @@
         android:layout_height="wrap_content"
         android:theme="@style/AppTheme.AppBarOverlay" />
 
+    <include layout="@layout/content_map" />
+
     <include
         android:id="@+id/include2"
         layout="@layout/content_map"
@@ -24,12 +26,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"></com.esri.arcgisruntime.mapping.view.MapView>
 
-    <ImageButton
+  <ImageButton
         android:id="@+id/profile"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/usericon"
         tools:layout_editor_absoluteX="317dp"
         tools:layout_editor_absoluteY="0dp" />
+  
+  <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@color/common_google_signin_btn_text_light_default"
+        app:srcCompat="@drawable/leafbutton" />
 
 </android.support.constraint.ConstraintLayout>

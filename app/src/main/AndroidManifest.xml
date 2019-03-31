@@ -26,12 +26,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
+        android:theme="@style/AppTheme">
         android:hardwareAccelerated="false"
         android:largeHeap="true">
         <activity android:name=".MembersActivity"></activity>
         <activity android:name=".ProfileActivity" />
         <activity android:name=".GardenCommunity" />
+
         <activity
             android:name=".GardenPage"
             android:label="@string/title_activity_garden_page"
@@ -59,16 +60,29 @@
             android:name=".MapActivity"
             android:label="@string/title_activity_map"
             android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
-            android:name=".MenuActivity"
-            android:label="@string/title_activity_menu"
+            android:name=".ProduceActivity"
+            android:label="@string/title_activity_produce"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusinessActivity"
+            android:label="@string/title_activity_business"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
     </application>
 
 </manifest>

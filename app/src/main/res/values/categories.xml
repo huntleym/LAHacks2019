@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories_array">
+        <item>Farmers market</item>
+        <item>Grocery store</item>
+        <item>Supermarket</item>
+        <item>Restaurant</item>
+        <item>Market</item>
+    </string-array>
+</resources>
