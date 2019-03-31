@@ -33,7 +33,7 @@ public class LoginActivity extends AppCompatActivity {
 
     private void validate(String username, String pass){
 
-        if((username == "Admin") && (pass == "Admin")){
+        if((username.equals("Admin")) && (pass.equals("Admin"))){
             Intent intent = new Intent(LoginActivity.this, MainMapActivity.class);
             startActivity(intent);
         }
