@@ -19,15 +19,23 @@ public class GardenPage extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         Button community = (Button)findViewById(R.id.button);
+
         community.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(GardenPage.this, GardenCommunity.class);
                 startActivity(intent);
             }
-
         });
 
+        Button back = (Button)findViewById(R.id.back);
+        back.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(GardenPage.this, MapActivity.class);
+                startActivity(intent);
+            }
+        });
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
