@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gardenpage"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".GardenPage"
     tools:showIn="@layout/activity_garden_page">
@@ -14,23 +15,25 @@
         android:layout_height="48dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="In Progress"
+        android:text="active"
         android:textColor="@color/colorPrimary"
-        tools:layout_editor_absoluteX="200dp"
-        tools:layout_editor_absoluteY="125dp" />
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="211dp"
+        tools:layout_editor_absoluteY="479dp" />
 
     <EditText
         android:id="@+id/GardenName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="132dp"
         android:ems="10"
         android:inputType="text"
         android:singleLine="false"
         android:text="Garden 1"
+        android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -69,9 +72,10 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="43dp"
         android:text="Community Board"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="555dp" />
+        android:visibility="invisible"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="544dp" />
 </android.support.constraint.ConstraintLayout>

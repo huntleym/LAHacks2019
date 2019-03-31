@@ -1,6 +1,7 @@
 package com.greenla.app.greenla;
 
 import android.Manifest;
+
 import android.app.DownloadManager;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -17,9 +18,14 @@ import android.text.Html;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
+
 import android.widget.AdapterView;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import android.widget.Button;
+import android.widget.ImageButton;
+
 import android.widget.Toast;
 
 import com.esri.arcgisruntime.concurrent.ListenableFuture;
@@ -58,7 +64,7 @@ import java.util.concurrent.ExecutionException;
 public class MapActivity extends AppCompatActivity {
 
     private MapView mMapView;
-
+    private ImageButton profile;
     private LocationDisplay mLocationDisplay;
 
     private GraphicsOverlay graphicsOverlay;
@@ -105,6 +111,15 @@ public class MapActivity extends AppCompatActivity {
         });
 
         createGraphicsOverlay();
+
+        profile = (ImageButton)findViewById(R.id.profile);
+        profile.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MapActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
