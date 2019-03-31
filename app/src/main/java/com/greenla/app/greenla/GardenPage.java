@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class GardenPage extends AppCompatActivity {
 
@@ -28,7 +29,7 @@ public class GardenPage extends AppCompatActivity {
             }
         });
 
-        Button back = (Button)findViewById(R.id.back);
+        ImageButton back = (ImageButton)findViewById(R.id.back);
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view) {

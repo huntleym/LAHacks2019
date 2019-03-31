@@ -5,16 +5,17 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class ProfileActivity extends AppCompatActivity {
 
-    private Button back;
+    private ImageButton back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
-        back = (Button)findViewById(R.id.profBack);
+        back = (ImageButton)findViewById(R.id.profBack);
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

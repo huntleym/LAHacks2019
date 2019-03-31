@@ -7,12 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class GardenCommunity extends AppCompatActivity {
 
     private Button members;
-    private Button back;
+    private ImageButton back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +29,7 @@ public class GardenCommunity extends AppCompatActivity {
             }
         });
 
-        back = (Button)findViewById(R.id.comBack);
+        back = (ImageButton)findViewById(R.id.comBack);
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {

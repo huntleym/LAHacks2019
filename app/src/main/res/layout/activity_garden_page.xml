@@ -9,18 +9,19 @@
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:theme="@style/AppTheme.AppBarOverlay"/>
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+    <include
+        android:id="@+id/include"
+        layout="@layout/content_garden_page" />
 
-    </android.support.design.widget.AppBarLayout>
-
-    <include layout="@layout/content_garden_page" />
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="42dp"
+        android:layout_height="33dp"
+        android:background="@drawable/backarrow"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
@@ -30,9 +31,4 @@
         android:layout_margin="@dimen/fab_margin"
         app:srcCompat="@android:drawable/ic_dialog_email" />
 
-    <Button
-        android:id="@+id/back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BACK" />
 </android.support.design.widget.CoordinatorLayout>

@@ -6,26 +6,13 @@
     android:layout_height="match_parent"
     tools:context=".GardenCommunity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar2"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="@color/colorPrimary"
-        app:popupTheme="@style/AppTheme.PopupOverlay" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="140dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:text="Garden 1 "
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar2"
-        app:layout_constraintVertical_bias="0.029"
-        tools:layout_editor_absoluteX="135dp" />
+    <ImageButton
+        android:id="@+id/comBack"
+        android:layout_width="42dp"
+        android:layout_height="33dp"
+        android:background="@drawable/backarrow"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <Button
         android:id="@+id/button2"
@@ -47,11 +34,4 @@
         tools:layout_editor_absoluteX="141dp"
         tools:layout_editor_absoluteY="569dp" />
 
-    <Button
-        android:id="@+id/comBack"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BACK"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="7dp" />
 </android.support.constraint.ConstraintLayout>
