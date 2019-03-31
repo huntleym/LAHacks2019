@@ -41,7 +41,7 @@ public class MenuActivity extends AppCompatActivity {
             }
         });
 
-        /*
+
         //produce button - go to local produce marketplace page
         produceBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,10 +59,6 @@ public class MenuActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-        */
-
-
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

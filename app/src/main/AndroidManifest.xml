@@ -30,21 +30,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity
             android:name=".GardenPage"
             android:label="@string/title_activity_garden_page"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".LoginActivity"
             android:label="Login Page"
-            android:theme="@style/AppTheme.NoActionBar">
-
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -59,20 +52,32 @@
 
         <activity
             android:name=".MainMapActivity"
-            android:label="@string/title_activity_main_map"></activity>
+            android:label="@string/title_activity_main_map" />
         <activity
             android:name=".MapActivity"
             android:label="@string/title_activity_map"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
         <activity
             android:name=".MenuActivity"
             android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".ProduceActivity"
+            android:label="@string/title_activity_produce"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BusinessActivity"
+            android:label="@string/title_activity_business"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

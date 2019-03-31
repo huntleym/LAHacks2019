@@ -19,6 +19,8 @@
     <string name="title_activity_menu">MenuActivity</string>
     <string name="search_nearby_gardens">Search nearby gardens</string>
     <string name="search_local_produce">Search local produce</string>
-    <string name="for_businesses">For businesses</string>
+    <string name="for_businesses">Parks and Open Spaces</string>
     <string name="title_activity_garden_page">GardenPage</string>
+    <string name="title_activity_produce">ProduceActivity</string>
+    <string name="title_activity_business">Open Spaces in LA</string>
 </resources>
