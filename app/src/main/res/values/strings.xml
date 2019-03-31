@@ -20,4 +20,5 @@
     <string name="search_nearby_gardens">Search nearby gardens</string>
     <string name="search_local_produce">Search local produce</string>
     <string name="for_businesses">For businesses</string>
+    <string name="title_activity_garden_page">GardenPage</string>
 </resources>
