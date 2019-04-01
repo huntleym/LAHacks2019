@@ -25,6 +25,7 @@ public class GardenCommunity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         members = (Button)findViewById(R.id.members);
+
         members.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,6 +33,7 @@ public class GardenCommunity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
 
         back = (ImageButton)findViewById(R.id.comBack);
         back.setOnClickListener(new View.OnClickListener(){
