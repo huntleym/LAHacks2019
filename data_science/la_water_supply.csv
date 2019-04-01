@@ -1,0 +1,38 @@
+,Project Name,Drainage Area  (Acres),Watershed,Project Type,Groundwater Basic,LA City Water Supply,Green Street / Alley,lat,lng
+0,Avalon North Green Alley,3.0,LA River,Distributed,Central,Yes,Yes,33.9077208,-118.2652978
+1,Avalon South Green Alley,5.0,LA River,Distributed,Central,Yes,Yes,33.9891116,-118.2914872
+2,Branford Street Dry Well Project (Sun Valley EDA),166.0,LA River,Distributed,San Fernando,Yes,Yes,34.2465771,-118.4054665
+3,Broadway Neighborhood Stormwater Greenway,290.0,LA River,Regional/Distributed/LID,Central,Yes,Yes,33.9537258,-118.2782103
+4,Echo Park Lake Restoration,131.0,LA River,Regional,Central,Yes,No,34.06325,-118.23739
+5,Ed P. Reyes River Greenway,135.0,LA River,Regional,Central,No,,34.075753,-118.2242453
+6,Elmer Avenue Green Street,45.0,LA River,Regional/Distributed/LID,San Fernando Valley,Yes,Yes,34.1794348,-118.3768679
+7,Elmer Paseo Green Alley,20.0,LA River,Distributed,San Fernando Valley,Yes,Yes,34.0522342,-118.2436849
+8,Garvanza Park Stormwater Infiltration and Use,78.0,LA River,Regional,Central,Yes,,34.1194546,-118.180688
+9,Glenoaks and Sunland Stormwater Infiltration,302.0,LA River,Distributed,San Fernando,Yes,No,34.2298551,-118.3664253
+10,Grand Blvd. Tree Wells Greenway,16.0,Santa Monica Bay,Distributed,Santa Monica,No,,33.9882811,-118.4673078
+11,Hansen Dam Recreational Area,74.0,LA River,Regional,San Fernando Valley,No,No,34.2713597,-118.3897098
+12,HBT Stormwater Capture Projects,,LA River,Distributed,San Fernando ,Yes,Yes,34.1021137,-118.3346532
+13,Imperial Highway Median,17.0,Dominguez Channel,Distributed,West Coast,No,,33.9309512,-118.2945714
+14,Laurel Canyon Green Street,123.0,LA River,Distributed,San Fernando,Yes,Yes,34.1958518,-118.3965329
+15,Los Angeles Zoo Parking Lot Stormwater Infiltration,33.0,LA River,LID,Central,Yes,No,34.1498697,-118.2838126
+16,Manchester Greenway,3.0,LA River,Distributed,Central,No,,34.0522342,-118.2436849
+17,Mar Vista Recreation Center Stormwater Capture,244.0,Ballona Creek,Regional,Santa Monica,No,,34.0175914,-118.4283584
+18,North Atwater Creek Restoration,60.0,LA River,Regional,Central,No,,34.1326035,-118.2722875
+19,North Hollywood Green Alley,14.0,LA River,Distributed,San Fernando,Yes,Yes,34.1875306,-118.3752474
+20,Old Oak Rd Swales Green Street,51.0,Santa Monica Bay,Distributed,Santa Monica,No,Yes,34.0600216,-118.4964699
+21,Oros Green Street,8.0,LA River,Regional/Distributed,Central,Yes,Yes,34.0858016,-118.2297069
+22,Peck Park Canyon Enhancement,100.0,Dominguez Channel,Regional,West Coast,No,,33.7488757,-118.3080177
+23,Rainwater Harvesting Downspout Disconnection2,6.0,Ballona Creek,Distributed/LID,Santa Monica,No,No,34.0522342,-118.2436849
+24,Ramona Gardens Rain Gardens,7.0,Dominguez Channel,Distributed,Central,No,,34.0586224,-118.1947944
+25,Riverdale Avenue Green Street Project,14.0,LA River,Distributed,Central,Yes,Yes,34.0905578,-118.2353122
+26,Rosecrans Recreational Center,13.0,Dominguez Channel,Regional,West Coast,No,,33.8956397,-118.2905902
+27,South Los Angeles Wetlands Park,500.0,LA River,Regional,Central,No,No,33.9927255,-118.2662196
+28,Sun Valley Park Multiuse Stormwater Infiltration,45.0,LA River,Regional,San Fernando,Yes,No,34.2279298,-118.3812562
+29,Temescal Canyon Park Stormwater Capture Use,1590.0,Santa Monica Bay,Regional,Santa Monica,No,,34.0384321,-118.5331548
+30,Tuxford Green Multiuse Project,992.0,LA River,Regional,San Fernando,No,No,34.2316726,-118.3752702
+31,Westminster Dog Park Stormwater BMP,3.0,Santa Monica Bay,LID,Santa Monica,No,No,33.9898848,-118.4736064
+32,Westside Park Rainwater Capture Use Irrigation,298.0,Ballona Creek,Distributed,Central,No,,34.0335117,-118.4630376
+33,Woodman Ave Median Green Street,110.0,LA River,Distributed,San Fernando,Yes,Yes,34.0392113,-118.2612751
+34,"Small-scale Residential Private LID (3,586)3",235.0,Citywide,LID,Various,?,,34.0522342,-118.2436849
+35,"Other Land Development LID (1,578)3",2124.0,Citywide,LID,Various,?,,34.0522342,-118.2436849
+36,Penmar Stormwater Capture Use and Water Quality Improvement ,1468.0,Santa Monica Bay,Regional,Santa Monica,Yes,,34.0522342,-118.2436849
